@@ -1,0 +1,121 @@
+
+body{
+	background: #232323;
+}
+
+#header1{
+	color: white;
+	text-align: center;
+	background: steelblue;
+	margin: 0;
+	font-weight: normal;
+	text-transform: uppercase;
+	padding: 20px 0px;
+	line-height: 1.1;
+}
+
+.colorDisplay{
+	font-size: 2em;
+ }
+
+#myBar{
+	background-color: white;
+	text-align: center;
+	height: 40px;
+	color: black;
+}
+
+/*bs bar*/
+#bsBar{
+	background-color: white;
+	text-align: center;
+	height: 50px;
+	color: black;
+}
+
+#title{
+	background: dodgerblue;
+}
+
+#message{
+	color: black;
+	display:inline-block;
+	width:20%;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 1.2em;
+	color:black;
+
+}
+
+.selectedDifficultyButton{
+	color:white;
+	background: steelblue;
+}
+
+.container{
+	/*me auto margin left right kentrarei*/
+	margin: 20px auto;
+	max-width: 600px;
+}
+
+.boxes{
+	width: 30%;
+	padding-bottom: 30%;
+	float: left;
+	margin: 1.66%;
+	background: grey;
+	border-radius:15% ;
+	transition: background 0.4s;
+	/*webkit emozi*/
+}
+
+button{
+	border:none;
+	height:100%;
+	background: none;
+	text-transform: uppercase;
+	font-weight: 700;
+	color:steelblue;
+	letter-spacing:1px ;
+	font-size:1.3rem;
+	transition: all 0.3s;
+}
+
+/*bs buttons*/
+.btn{
+	border:none;
+	height:100%;
+	background: none;
+	text-transform: uppercase;
+	font-weight: 700;
+	color:steelblue;
+	letter-spacing:1px ;
+	font-size:1.3rem;
+	transition: all 0.3s;
+	outline: none;
+}
+
+
+.btn:focus{
+	box-shadow: none;
+
+}
+
+button:focus{
+	outline: none;
+
+}
+
+
+.btn:hover{
+	color:white;
+	background-color: steelblue;
+}
+
+button:hover{
+	color:white;
+	background-color: steelblue;
+}
+
+
